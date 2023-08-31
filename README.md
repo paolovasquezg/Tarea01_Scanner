@@ -1,8 +1,8 @@
 # Tarea01_Scanner
 
 ## Autores:
-* Paolo Vásquez
-* Marcelo Zuloeta
+* Paolo Vásquez (202110379)
+* Marcelo Zuloeta (202110397)
 
 ## Especificaciones
 
