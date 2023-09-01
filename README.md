@@ -15,7 +15,7 @@ push 3
 L1: jmpgt
 mul
 add
-goto L2:
+goto L2
 
 ```
 
@@ -45,7 +45,7 @@ EOL
 ADD
 EOL
 GOTO
-LABEL(L2)
+ID(L2)
 EOL
 END
 ```
