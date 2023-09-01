@@ -137,7 +137,7 @@ Token* Scanner::nextToken() {
         if (keywords.find(getLexema().substr(0,getLexema().size()-1)) != keywords.end())
           token = &(keywords.find(getLexema().substr(0, getLexema().size() - 1))->second);
         else
-          token =  new Token(Token::ID, getLexema());
+          token = new Token(Token::ID, getLexema().substr(0, getLexema().size() - 1));
         rollBack();
         return token;
         break;
